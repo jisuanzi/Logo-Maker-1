@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/6.2.0/jquery.nouislider.min.css'>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container" ng-app="app" class="app" >
+  <div class="row">
+    <h2 col-xs-12>LOGO MACHİNE</h2>
+    <section class="boxGenerate col-sm-6" data-icon="">
+      <span class="boxIncon" id="imgGenerator">
+        <i class="fa fa-meetup"></i>
+        <p> {{name}} </p> 
+      </span>
+      
+        
+    </section>
+    <section class="question col-sm-6">
+      <ul>
+        <li ><a href="#" data-question ="num1">Shower </a></li>
+        <li ><a href="#" data-question ="num2">Bike </a></li>
+        <li ><a href="#" data-question ="num3">Camera </a></li>
+        <li ><a href="#" data-question ="num4">Compass </a></li>
+        <li ><a href="#" data-question ="num5">Headphones </a></li>
+        <li ><a href="#" data-question ="num6">Book </a></li>
+        <li ><a href="#" data-question ="num7">Battery </a></li>
+        <li ><a href="#" data-question ="num8">Bell </a></li>
+        <li ><a href="#" data-question ="num9">Cube </a></li>
+      </ul>
+      <form class="">
+        <label for="name">Markanızın Adını Giriniz</label>
+        <input type="text" class="form-control" id="name" placeholder="Marka Adı" ng-model="name">
+        <input type="button" id="btnSave" value="Oluştur"/>
+      </form>
+    </section>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>

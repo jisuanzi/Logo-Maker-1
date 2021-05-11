@@ -1,0 +1,35 @@
+* {
+  -moz-transition: all, 0.5s, linear;
+  -o-transition: all, 0.5s, linear;
+  -webkit-transition: all, 0.5s, linear;
+  transition: all, 0.5s, linear;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.boxGenerate {
+  border: 2px solid rgb(34, 34, 34);
+  height: 300px;
+  background-color: rgb(97, 108, 160);
+   box-shadow: 5px 10px #000000;
+}
+
+.boxIncon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+i.fa {
+  font-size: 200px;
+  text-shadow:5px 10px #000000; 
+}
+p{
+  font-size: 30px;
+}
