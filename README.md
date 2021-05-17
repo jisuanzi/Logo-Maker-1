@@ -29,6 +29,7 @@ Use it as you want
 ## Screenshots
 
 <img src="logo.png">
+<img src="icon.ico">
 
 ## For Support
 For support, send an email to oguzhancart1@gmail.com or you are invited to our telegram channel https://t.me/vsform_tr  
